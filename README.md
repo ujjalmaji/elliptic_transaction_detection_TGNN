@@ -1,4 +1,4 @@
-# Robust Fraud Detection in Bitcoin Networks via Temporal Graph Neural Networks (TGNN)
+## Fraud Detection in Bitcoin Networks via Temporal Graph Neural Networks (TGNN)
 
 This repository contains the implementation of a Temporal Graph Neural Network (TGNN) designed to detect illicit (fraudulent) transactions within the Elliptic Bitcoin dataset. By treating financial transactions as a dynamic, time-evolving graph, the model effectively captures both the topological structure of transaction flows and their temporal dependencies.
 
