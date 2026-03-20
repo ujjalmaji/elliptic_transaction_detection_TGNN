@@ -57,7 +57,7 @@ The implementation is built on Python 3 and relies heavily on PyTorch ecosystem 
 !pip install networkx pandas numpy scikit-learn matplotlib
 ```
 
-## 🚀 Usage Guide
+## 📖 Usage Guide
 
 1.  **Data Preparation**: Ensure the Elliptic dataset CSV files (`elliptic_txs_features.csv`, `elliptic_txs_edgelist.csv`, `elliptic_txs_classes.csv`) are located in the designated directory (`/content/drive/MyDrive/Elliptic_Dataset/` or modify the `base_path` accordingly).
 2.  **Execution**: Run the notebook cells sequentially. The pipeline handles data ingestion, temporal normalization (StandardScaler fit strictly on training timesteps), and PyG `Data` object construction.
